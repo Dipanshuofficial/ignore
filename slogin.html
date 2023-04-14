@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dabble | Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- <h2>Login</h2> -->
+    <form onsubmit="return cheeckForm()">
+    <div class="container">
+        <div class="left">
+            <div class="over">
+                <h1>Welcome</h1>
+                <p>Login to explore personalized experience.</p>
+                <span>
+                    <p>Login Through</p>
+                    <a id="fb" href="#"><img src="icons8-facebook-32.png"></a>
+                    <a id ="goog" href="#"><img src="search.png"></a>
+                </span>
+            </div>
+        </div>
+        <div class="right">
+            <h1>Login</h1>
+            <p>Don't have an account? <a href="signup.html">Create Your Account</a> it takes less than a minute</p>
+            <div class="field">
+                <label><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" id="uname">
+            </div>
+            <br>
+            <div class="field">
+                <label><b>Password</b></label>
+                <input type="password" placeholder="Enter password" name="psw" id="pwd">
+            </div>
+            <br>
+            <label><a href="#">Forgot Password?</a></label>
+            <div class="button">
+                <button type="submit">Login</button>
+            </div>
+        </div>
+    </div>
+</form>
+</body>
+</html>

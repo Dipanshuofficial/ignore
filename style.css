@@ -1,0 +1,137 @@
+body {
+    background-image: linear-gradient(135deg, #04464B 10%, #EFF2E5 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Open Sans", sans-serif;
+    color: #333333;
+  }
+  img{
+    width: 32px;
+    height: 32px;
+  }
+.container{
+    margin: 0 auto;
+    margin-top: 65px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    width: 80%;
+    height: 80%;
+    overflow: hidden;
+    display: flex;
+    flex: 1 1 100%;
+    align-items: stretch;
+    justify-content: space-between;
+}
+.container div{
+    height: auto;
+}
+.container .left{
+    color: #FFFFFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 50%;
+    background-image: url(paris-1.jpeg);
+}
+
+.container .left .over{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    background: #05a36473;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.container .left .over h1{
+    font-size: 7vmax;
+}
+.container .left .over p{
+    font-size: 17px;
+}
+.container .left .over span p{
+    margin-top: 30px;
+    font-weight: 900;
+    font-size: 25px;
+}
+.container .left .over span #fb{
+    background: #039BE5;
+    color: #FFFFFF;
+    margin-top: 10px;
+    padding: 14px 50px;
+    border-radius: 100px;
+    display: inline-block;
+    box-shadow: 0 3px 6px 1px #042d4657;
+    transition: transform 0.3s;
+  }
+  .container .left .over span #fb:hover{
+    transform: scale(1.1);
+  }
+  .container .left .over span #goog{
+    background: #ffffff;
+    color: #FFFFFF;
+    margin-left: 15px;
+    margin-top: 10px;
+    padding: 14px 50px;
+    border-radius: 100px;
+    display: inline-block;
+    box-shadow: 0 3px 6px 1px #042d4657;
+    transition: transform 0.3s;
+  }
+  .container .left .over span #goog:hover{
+    transform: scale(1.1);
+  }
+.container .right{
+    padding: 40px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container .right h1{
+    font-size: 6vmax;
+    line-height: 0;
+}
+.container .right p{
+    font-size: 14px;
+    color: #75767a;
+}
+.container .right .field{
+    overflow: hidden;
+}
+.container .right input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 25px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #04464B;
+
+}
+.container .right button{
+    float: right;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 35px;
+    border-radius: 50px;
+    display: inline-block;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: transform 0.3s;
+    background-image: linear-gradient(135deg, #05A365 10%, #49C628 100%);
+}
+.container .right button:hover{
+    transform: scale(1.1);
+}
+label{
+    display: block;
+    position: relative;
+    font-family: sans-serif;
+}
